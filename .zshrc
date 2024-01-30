@@ -146,3 +146,9 @@ export PATH="$HOME/.local/share/nvim/mason/bin:$PATH"
 
 # Config for golang
 export PATH="$PATH:$HOME/go/bin"
+
+# Postgresql path
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/postgresql@16/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/postgresql@16/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/postgresql@16/lib/pkgconfig"
