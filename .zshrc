@@ -152,3 +152,7 @@ export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/postgresql@16/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/postgresql@16/include"
 export PKG_CONFIG_PATH="/opt/homebrew/opt/postgresql@16/lib/pkgconfig"
+
+# Bind keys
+bindkey '^l' forward-word
+bindkey '^h' backward-word
